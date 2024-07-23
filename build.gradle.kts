@@ -3,6 +3,25 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenLocal()
+        maven {
+            setUrl("https://maven.aliyun.com/repository/public/")
+        }
+        maven {
+            setUrl("https://maven.aliyun.com/repository/google/")
+        }
+        maven {
+            setUrl("https://maven.aliyun.com/repository/jcenter/")
+        }
+        maven {
+            setUrl("https://maven.aliyun.com/nexus/content/groups/public/")
+        }
+        maven {
+            setUrl("https://jitpack.io")
+        }
+        maven {
+            setUrl("https://jcenter.bintray.com/")
+        }
     }
     dependencies {
         classpath("com.android.tools.build:gradle:${ProjectProperties.agpVersion}")
@@ -14,6 +33,25 @@ allprojects {
     repositories {
         google()
         jcenter()
+        mavenLocal()
+        maven {
+            setUrl("https://maven.aliyun.com/repository/public/")
+        }
+        maven {
+            setUrl("https://maven.aliyun.com/repository/google/")
+        }
+        maven {
+            setUrl("https://maven.aliyun.com/repository/jcenter/")
+        }
+        maven {
+            setUrl("https://maven.aliyun.com/nexus/content/groups/public/")
+        }
+        maven {
+            setUrl("https://jitpack.io")
+        }
+        maven {
+            setUrl("https://jcenter.bintray.com/")
+        }
     }
 }
 
